@@ -36,11 +36,11 @@ export default function Home() {
               and a stronger you.
             </p>
             <Link
-              href="/work"
+              href="https://unfold.streamlit.app/"
               className="relative px-5 py-2 font-medium text-white group w-fit mx-auto mt-8"
             >
-              <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-zinc-500 group-hover:bg-zinc-700 group-hover:skew-x-12"></span>
-              <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-zinc-700 group-hover:bg-zinc-500 group-hover:-skew-x-12"></span>
+              <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-amber-500 group-hover:bg-amber-700 group-hover:skew-x-12"></span>
+              <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-yellow-700 group-hover:bg-amber-500 group-hover:-skew-x-12"></span>
               <span className="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-zinc-600 -rotate-12"></span>
               <span className="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-zinc-400 -rotate-12"></span>
               <span className="relative">Try Now</span>
@@ -50,12 +50,13 @@ export default function Home() {
           <AutoplayVideo src="/bg/yoga_vid.mp4" />
         </main>
       </div>
-      <div className="bg-gradient-to-b from-[#004439] to-slate-950 w-full flex justify-center flex-col ">
-        <h3 className=" text-white mx-auto font-semibold font-sans text-2xl  pt-10">
-          {" "}
-          What we do{" "}
-        </h3>
-        <div className="grid grid-cols-1 gap-6 xl:gap-10 sm:grid-cols-2 lg:grid-cols-2  px-5  py-8 ">
+      <div className="bg-gradient-to-b from-[#004439] to-slate-950 w-full flex justify-center mx-auto flex-col ">
+      <div className="max-w-xl mx-auto text-center pt-6">
+            <p className="text-sm font-semibold tracking-widest text-amber-600 uppercase">1300+ Happy customer</p>
+
+            <h2 className="mt-6 text-3xl font-bold leading-tight bg-gradient-to-br from-[#b7967a] via-[#e0a16a] to-[#3d2714] inline-block text-transparent   bg-clip-text sm:text-4xl lg:text-5xl">Next-Gen Yoga</h2>
+        </div>
+        <div className="grid grid-cols-1  pb-24 gap-6 xl:gap-10 sm:grid-cols-2 lg:grid-cols-2  px-5  justify-center w-full mx-auto max-w-6xl py-8 ">
           <GlowingStarsBackgroundCard>
             <GlowingStarsTitle>Personalized Practice</GlowingStarsTitle>
             <div className="flex justify-between items-end">

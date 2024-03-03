@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-
+import Link from "next/link";
 export default function Navbar() {
   return (
     <header>
@@ -35,17 +35,17 @@ export default function Navbar() {
                   <h1 className="bg-gradient-to-br from-[#b7967a] via-[#e0a16a] to-[#3d2714] inline-block text-transparent text-4xl  bg-clip-text">
                     Unfold
                   </h1>
-                  
                 </a>
               </div>
             </div>
-
-            <Button
-              variant="outline"
-              className=" bg-[#b7967a] text-black font-sans font-semibold border-none  "
-            >
-              Try now
-            </Button>
+            <Link href="https://unfold.streamlit.app/">
+              <Button
+                variant="outline"
+                className=" bg-[#b7967a] text-black font-sans font-semibold border-none  "
+              >
+                Try now
+              </Button>
+            </Link>
           </nav>
         </div>
       </div>
